@@ -15,9 +15,11 @@ class MemoryGame {
   shuffleCards(cards) {
 
 
+
+
     return shuffledArray = cards.sort(() => Math.random() - 0.5)
     
-
+// return this.cards
 
   }
 
@@ -38,7 +40,7 @@ class MemoryGame {
     
 
 
-return (this.cards.length + 1) * 2 === pairsGuessed
+return (this.cards.length + 1) * 2 === this.pairsGuessed
 
 
   }
